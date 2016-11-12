@@ -144,16 +144,34 @@ a.current {
 	padding: 1%;
 }
 
-.circle {
-	border-radius: 50%;
-}
-
 .center{
 	margin: 0 auto;
 }
 
 .vertical-center {
 	align-items: center;
+}
+
+.half {
+	width: 50%;
+}
+
+.card {
+	background-color: seashell; 
+	margin-bottom: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	display: flex;
+	font-family: serif;
+}
+
+.phone {
+	font-family: sans-serif;
+	font-size:13px;
+}
+
+.faculty-photo {
+   width: 110px;
+   height: 100px;
 }
 
 @media screen and (max-width: 1650px) {
