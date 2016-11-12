@@ -13,6 +13,13 @@ p {
 
 ul {
 	padding: 0;
+	margin: 0;
+}
+
+hr {
+	background: #958c7f;
+	border: none;
+	border-radius: 2px;
 }
 
 a, a:hover, a:active, a:visited {
@@ -21,7 +28,7 @@ a, a:hover, a:active, a:visited {
 
 header {
 	color: white;
-	background: #a33933;
+	background: #822d29;
 	top: 0;
 	z-index: 10;
 }
@@ -56,6 +63,7 @@ header h2 {
 nav {
   background: #502420;
   padding: 10px;
+	width: 100%;
 }
 
 nav ul {
@@ -64,8 +72,10 @@ nav ul {
 
 nav ul a {
   display: flex;
-  padding: 5px 10px ;
+  padding: 10px;
   color: white;
+	font-weight: bold;
+  text-transform: uppercase;
   background: black;
   margin: 3px 0;
 }
@@ -91,7 +101,12 @@ footer p{
 }
 
 a.current {
-  color: wheat;
+	background: #bfbbb5;
+  color: black;
+}
+
+aside.column {
+	background: #f3f3f3;
 }
 
 #title {
@@ -103,6 +118,23 @@ a.current {
   height: 80px;
 }
 
+#profile-pic {
+	width: 80%;
+	height: 100%;
+	margin: 15px;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+#gold-stripe {
+	height: 20px;
+	background: #a28a49;
+}
+
+#faculty-contact-info {
+	list-style-type: none;
+	margin: 20px;
+}
+
 .full-width {
 	display: flex;
 	justify-content: center;
@@ -110,12 +142,35 @@ a.current {
 	margin: 0 !important;
 }
 
+.bar-small {
+	height: 2px;
+}
+
+.bar-medium {
+	height: 10px;
+}
+
 .bottom {
 	background: #ede9e4;
+	justify-content: center;
+	align-items: center;
+}
+
+.bottom div {
+	flex-grow: 1;
+	display: flex;
+	justify-content: center;
+}
+
+.bottom p {
+	font-size: 14px;
+	width: 180px;
+	text-align: center;
 }
 
 .bottom img {
-	
+	width: 180px;
+	height: 125px;
 }
 
 .no-flex {
