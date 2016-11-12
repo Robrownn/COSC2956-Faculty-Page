@@ -110,6 +110,14 @@ a.current {
 	margin: 0 !important;
 }
 
+.bottom {
+	background: #ede9e4;
+}
+
+.bottom img {
+	
+}
+
 .no-flex {
 	display: block;
 }
