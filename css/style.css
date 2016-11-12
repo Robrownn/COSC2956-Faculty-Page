@@ -173,6 +173,10 @@ aside.column {
 	height: 125px;
 }
 
+.bottom .column-double{
+	padding: 0;
+}
+
 .no-flex {
 	display: block;
 }
