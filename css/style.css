@@ -312,6 +312,10 @@ a.card:hover {
   }
 }
 
+table {
+	width: 100%;
+}
+
 table, td {
 	border-bottom: 1px solid #ddd;
 	border-left: 3px solid #ddd;
@@ -325,3 +329,6 @@ td {
 	padding: 20px;
 }
 
+ul.no-bullet {
+	list-style-type: none;
+}
